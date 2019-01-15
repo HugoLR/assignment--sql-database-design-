@@ -24,5 +24,5 @@ CREATE TABLE Track (
   Name VARCHAR(200) NOT NULL,
   Trackduration Int,
   AlbumId Int,
-  FOREIGN KEY (AlbumId) REFERENCES Album(Id),
-)
+  FOREIGN KEY (AlbumId) REFERENCES Album(Id)g
+);
